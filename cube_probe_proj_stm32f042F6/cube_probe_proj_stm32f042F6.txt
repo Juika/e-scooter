@@ -1,0 +1,66 @@
+Configuration	cube_probe_proj_stm32f042F6
+STM32CubeMX 	4.26.1
+Date	09/07/2018
+MCU	STM32F042F6Px
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+ADC	IN5	ADC_IN5	PA5
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PF0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PF1-OSC_OUT
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Trigger Mode	TIM1_VS_ControllerModeTrigger	VP_TIM1_VS_ControllerModeTrigger
+TIM1	ITR3	TIM1_VS_ClockSourceITR	VP_TIM1_VS_ClockSourceITR
+TIM2	PWM Generation CH2	TIM2_CH2	PA1
+TIM2	PWM Generation CH3	TIM2_CH3	PA2
+TIM2	PWM Generation CH4	TIM2_CH4	PA3
+TIM3	PWM Generation CH1	TIM3_CH1	PA6
+TIM3	PWM Generation CH2	TIM3_CH2	PA7
+TIM3	PWM Generation CH4	TIM3_CH4	PB1
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+1	PB8	GPIO_Output	
+2	PF0-OSC_IN	RCC_OSC_IN	
+3	PF1-OSC_OUT	RCC_OSC_OUT	
+7	PA1	TIM2_CH2	
+8	PA2	TIM2_CH3	
+9	PA3	TIM2_CH4	
+10	PA4	GPIO_Output	
+11	PA5	ADC_IN5	
+12	PA6	TIM3_CH1	
+13	PA7	TIM3_CH2	
+14	PB1	TIM3_CH4	
+17	PA9	USART1_TX	
+18	PA10	USART1_RX	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : cube_probe_proj_stm32f042F6
+Project Folder : C:\Users\zilkov\eclipse-workspace\e-scooter\cube_probe_proj_stm32f042F6
+Toolchain / IDE : TrueSTUDIO
+Firmware Package Name and Version : STM32Cube FW_F0 V1.9.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
